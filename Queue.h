@@ -76,9 +76,6 @@ public:
     // Gives value of the front element
     T peek() {
         if (isEmpty()) {
-            // In a real-world application, throwing an exception is better.
-            // For this example, we assume the user checks isEmpty() first.
-            // We must return a default-constructed T if the queue is empty.
             std::cerr << "Warning: Peeking from an empty queue." << std::endl;
             return T(); 
         }

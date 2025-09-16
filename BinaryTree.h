@@ -103,17 +103,13 @@ public:
 
     void levelOrder() {
         if (!root) return;
-
-        std::cout << "Level-order (custom queue): ";
+        std::cout << "Level-order: ";
         Queue<BTNode*> q;
         q.enqueue(root);
-
         while (!q.isEmpty()) {
             BTNode* current = q.peek();
             q.dequeue();
-
             std::cout << current->data << " ";
-
             if (current->left) {
                 q.enqueue(current->left);
             }
@@ -135,7 +131,6 @@ public:
 
     void deleteNode(int key) {
         if (!root) return;
-
         if (!root->left && !root->right) {
             if (root->data == key) {
                 delete root;
@@ -143,17 +138,13 @@ public:
             }
             return;
         }
-
         Queue<BTNode*> q;
         q.enqueue(root);
-
         BTNode* key_node = nullptr;
         BTNode* deepest_node = nullptr;
-
         while (!q.isEmpty()) {
             deepest_node = q.peek();
             q.dequeue();
-
             if (deepest_node->data == key) {
                 key_node = deepest_node;
             }
@@ -164,17 +155,14 @@ public:
                 q.enqueue(deepest_node->right);
             }
         }
-
         if (key_node) {
             int last_data = deepest_node->data;
-
             Queue<BTNode*> parent_q;
             parent_q.enqueue(root);
             BTNode* parent_of_deepest = nullptr;
             while (!parent_q.isEmpty()) {
                 parent_of_deepest = parent_q.peek();
                 parent_q.dequeue();
-
                 if (parent_of_deepest->right) {
                     if (parent_of_deepest->right == deepest_node) {
                         delete parent_of_deepest->right;

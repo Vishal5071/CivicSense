@@ -21,6 +21,7 @@ private:
     struct DijkstraNode {
         T vertex;
         int distance;
+        // This comparator is correct, assuming your PriorityQueue is a min-queue
         bool operator<(const DijkstraNode& other) const { return distance < other.distance; }
     };
 
@@ -34,7 +35,6 @@ private:
     void _dfs(T node, std::unordered_map<T, bool>& visited) {
         visited[node] = true;
         std::cout << node << " ";
-
         for (auto const& neighbor_pair : adjList[node]) {
             T neighbor = neighbor_pair.first;
             if (!visited[neighbor]) {
@@ -46,7 +46,6 @@ private:
     bool _hasCycle(T node, std::unordered_map<T, bool>& visited, std::unordered_map<T, bool>& recursionStack) {
         visited[node] = true;
         recursionStack[node] = true;
-
         for (auto const& neighbor_pair : adjList[node]) {
             T neighbor = neighbor_pair.first;
             if (!visited[neighbor]) {
@@ -57,7 +56,6 @@ private:
                 return true;
             }
         }
-        
         recursionStack[node] = false;
         return false;
     }
@@ -70,7 +68,6 @@ private:
             current = came_from[current];
             total_path.push_back(current);
         }
-        // The path is backwards, so we reverse it.
         std::reverse(total_path.begin(), total_path.end());
         return total_path;
     }
@@ -87,9 +84,7 @@ public:
     // Prints the adjacency list representation of the graph.
     void printGraph() {
     std::cout << "--- Adjacency List ---" << std::endl;
-    
     for (const auto& pair : adjList) {
-        // Manually unpack the vertex (key) and neighbors list (value)
         T vertex = pair.first;
         const std::list<std::pair<T, int>>& neighbors = pair.second;
         std::cout << vertex << " -> ";
@@ -98,7 +93,6 @@ public:
         }
         std::cout << std::endl;
     }
-    
     std::cout << "----------------------" << std::endl;
     }
 
@@ -107,14 +101,11 @@ public:
         std::cout << "BFS Traversal (custom Queue): ";
         std::unordered_map<T, bool> visited;
         Queue<T> q;
-
         q.enqueue(startNode);
         visited[startNode] = true;
-
         while (!q.isEmpty()) {
             T currentNode = q.dequeue();
             std::cout << currentNode << " ";
-
             for (auto const& neighbor_pair : adjList[currentNode]) {
                 T neighbor = neighbor_pair.first;
                 if (!visited[neighbor]) {
@@ -134,52 +125,76 @@ public:
         std::cout << std::endl;
     }
 
-    // Dijikstras algorithm to find the shortest path
-    void dijkstra(T startNode) {
+    // Dijkstra algorithm to find the shortest path between 2 nodes
+    void dijkstra(T startNode, T endNode) {
         std::unordered_map<T, int> distances;
+        std::unordered_map<T, T> predecessors;
         for (auto const& pair : adjList) {
-            distances[pair.first] = std::numeric_limits<int>::max();
-        }
-        
-        distances[startNode] = 0;
-
-        PriorityQueue<DijkstraNode> pq;
-        pq.push({startNode, 0});
-
-        while(!pq.isEmpty()) {
-            DijkstraNode topNode = pq.top();
-            pq.pop();
-
-            T node = topNode.vertex;
-            int dist = topNode.distance;
-
-            if (dist > distances[node]) {
-                continue;
+            if (distances.find(pair.first) == distances.end()) {
+                 distances[pair.first] = std::numeric_limits<int>::max();
             }
-
-            for (auto const& neighbor_pair : adjList[node]) {
-                T neighbor = neighbor_pair.first;
-                int weight = neighbor_pair.second;
-
-                if (distances[node] + weight < distances[neighbor]) {
-                    distances[neighbor] = distances[node] + weight;
-                    pq.push({neighbor, distances[neighbor]});
+            for (auto const& edge : pair.second) {
+                if (distances.find(edge.first) == distances.end()) {
+                    distances[edge.first] = std::numeric_limits<int>::max();
                 }
             }
         }
-
-        std::cout << "--- Dijkstra's Shortest Paths (from " << startNode << ") ---" << std::endl;
-        for (auto const& pair : distances) {
-            std::cout << "Distance to " << pair.first << ": " << pair.second << std::endl;
+        if (distances.find(startNode) == distances.end()) {
+            distances[startNode] = std::numeric_limits<int>::max();
+        }
+        if (distances.find(endNode) == distances.end()) {
+            distances[endNode] = std::numeric_limits<int>::max();
+        }
+        distances[startNode] = 0;
+        PriorityQueue<DijkstraNode> pq;
+        pq.push({startNode, 0});
+        while(!pq.isEmpty()) {
+            DijkstraNode topNode = pq.top();
+            pq.pop();
+            T u = topNode.vertex;
+            int dist = topNode.distance;
+            if (u == endNode) {
+                break;
+            }
+            if (dist > distances[u]) {
+                continue;
+            }
+            for (auto const& neighbor_pair : adjList[u]) {
+                T v = neighbor_pair.first;
+                int weight = neighbor_pair.second;
+                if (distances[u] != std::numeric_limits<int>::max() && distances[u] + weight < distances[v]) {
+                    distances[v] = distances[u] + weight;
+                    predecessors[v] = u;
+                    pq.push({v, distances[v]});
+                }
+            }
+        }
+        std::cout << "--- Dijkstra's Shortest Path (" << startNode << " to " << endNode << ") ---" << std::endl;
+        if (distances[endNode] == std::numeric_limits<int>::max()) {
+            std::cout << "No path found from " << startNode << " to " << endNode << "." << std::endl;
+        } else {
+            std::vector<T> path;
+            T current = endNode;
+            while (predecessors.count(current)) {
+                path.push_back(current);
+                current = predecessors[current];
+            }
+            path.push_back(startNode);
+            std::reverse(path.begin(), path.end());
+            std::cout << "Shortest distance: " << distances[endNode] << std::endl;
+            std::cout << "Path: ";
+            for (size_t i = 0; i < path.size(); ++i) {
+                std::cout << path[i] << (i == path.size() - 1 ? "" : " -> ");
+            }
+            std::cout << std::endl;
         }
         std::cout << "------------------------------------------" << std::endl;
     }
 
-    // Checks if the grah has a cycle
+    // Checks if the graph has a cycle
     bool hasCycle() {
         std::unordered_map<T, bool> visited;
         std::unordered_map<T, bool> recursionStack;
-
         for (auto const& pair : adjList) {
             T node = pair.first;
             if (!visited[node]) {
@@ -191,33 +206,42 @@ public:
         return false;
     }
 
-    // A* algorithm to find shortest path from a source to a goal
+    // A* algorithm to find the shortest path between 2 nodes
     std::vector<T> a_star(T startNode, T goalNode, std::function<int(T, T)> heuristic) {
         PriorityQueue<AStarNode> open_set;
         std::unordered_map<T, T> came_from;
         std::unordered_map<T, int> g_cost;
-
         for (auto const& pair : adjList) {
-            g_cost[pair.first] = std::numeric_limits<int>::max();
+            if (g_cost.find(pair.first) == g_cost.end()) {
+                 g_cost[pair.first] = std::numeric_limits<int>::max();
+            }
+            for (auto const& edge : pair.second) {
+                if (g_cost.find(edge.first) == g_cost.end()) {
+                    g_cost[edge.first] = std::numeric_limits<int>::max();
+                }
+            }
+        }
+        if (g_cost.find(startNode) == g_cost.end()) {
+            g_cost[startNode] = std::numeric_limits<int>::max();
+        }
+        if (g_cost.find(goalNode) == g_cost.end()) {
+            g_cost[goalNode] = std::numeric_limits<int>::max();
         }
         g_cost[startNode] = 0;
-
         open_set.push({startNode, heuristic(startNode, goalNode)});
-
         while (!open_set.isEmpty()) {
             T current = open_set.top().vertex;
             open_set.pop();
-
             if (current == goalNode) {
                 return _reconstructPath(came_from, current);
             }
-
             for (auto const& neighbor_pair : adjList[current]) {
                 T neighbor = neighbor_pair.first;
                 int weight = neighbor_pair.second;
-
+                if (g_cost[current] == std::numeric_limits<int>::max()) {
+                    continue;
+                }
                 int tentative_g_cost = g_cost[current] + weight;
-
                 if (tentative_g_cost < g_cost[neighbor]) {
                     came_from[neighbor] = current;
                     g_cost[neighbor] = tentative_g_cost;
@@ -226,8 +250,6 @@ public:
                 }
             }
         }
-
-        // If the loop finishes, no path was found
         return std::vector<T>();
     }
 };

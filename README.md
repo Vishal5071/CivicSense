@@ -3,6 +3,11 @@
 
 ## How to use the product
 
+0. clone the repository
+    ```bash
+    git clone https://github.com/Vishal5071/CivicSense
+    ```
+
 1. Data Importing
     Import all neccessary data by installing all the module dependencies usind pip
     ```bash

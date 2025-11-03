@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="node" attr.name="amenity" attr.type="string" />
+  <key id="d2" for="node" attr.name="osmid" attr.type="string" />
+  <key id="d1" for="node" attr.name="y" attr.type="string" />
+  <key id="d0" for="node" attr.name="x" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1482551749">
+      <data key="d0">247264.42959444935</data>
+      <data key="d1">1196791.6304452524</data>
+      <data key="d2">('node', 1482551749)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="1482551796">
+      <data key="d0">247230.43038011948</data>
+      <data key="d1">1196797.7087486798</data>
+      <data key="d2">('node', 1482551796)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="1482555671">
+      <data key="d0">247647.12636857844</data>
+      <data key="d1">1197649.597948365</data>
+      <data key="d2">('node', 1482555671)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="1719289076">
+      <data key="d0">246871.9076246221</data>
+      <data key="d1">1198236.1091922375</data>
+      <data key="d2">('node', 1719289076)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="2152463908">
+      <data key="d0">247960.27885183273</data>
+      <data key="d1">1198580.1314375468</data>
+      <data key="d2">('node', 2152463908)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="2174971115">
+      <data key="d0">247966.99110772496</data>
+      <data key="d1">1190481.881614812</data>
+      <data key="d2">('node', 2174971115)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="2212486565">
+      <data key="d0">244873.29332008405</data>
+      <data key="d1">1196056.7583124444</data>
+      <data key="d2">('node', 2212486565)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="2212492352">
+      <data key="d0">246375.9723361093</data>
+      <data key="d1">1195935.6872072166</data>
+      <data key="d2">('node', 2212492352)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="3730202069">
+      <data key="d0">246846.7669430276</data>
+      <data key="d1">1197818.281491356</data>
+      <data key="d2">('node', 3730202069)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="3730202072">
+      <data key="d0">250296.67343434156</data>
+      <data key="d1">1196167.8144502519</data>
+      <data key="d2">('node', 3730202072)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="3734782469">
+      <data key="d0">249734.15308952704</data>
+      <data key="d1">1195585.9720751746</data>
+      <data key="d2">('node', 3734782469)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="4381628590">
+      <data key="d0">246054.98096818995</data>
+      <data key="d1">1194523.6977768582</data>
+      <data key="d2">('node', 4381628590)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4416013690">
+      <data key="d0">245949.02953861342</data>
+      <data key="d1">1192634.9419795421</data>
+      <data key="d2">('node', 4416013690)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4420664530">
+      <data key="d0">247342.95959452025</data>
+      <data key="d1">1192792.4185655506</data>
+      <data key="d2">('node', 4420664530)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4442170458">
+      <data key="d0">251433.1210776131</data>
+      <data key="d1">1196979.331670002</data>
+      <data key="d2">('node', 4442170458)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4458827834">
+      <data key="d0">251223.20485024058</data>
+      <data key="d1">1192878.9702181187</data>
+      <data key="d2">('node', 4458827834)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4458827836">
+      <data key="d0">251066.14844002706</data>
+      <data key="d1">1192477.491128326</data>
+      <data key="d2">('node', 4458827836)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4458827844">
+      <data key="d0">251247.52494312526</data>
+      <data key="d1">1193214.3447491967</data>
+      <data key="d2">('node', 4458827844)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="4458827860">
+      <data key="d0">250646.20433820903</data>
+      <data key="d1">1192370.0806006803</data>
+      <data key="d2">('node', 4458827860)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4458827870">
+      <data key="d0">250554.3069505452</data>
+      <data key="d1">1192366.8367186743</data>
+      <data key="d2">('node', 4458827870)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4543308039">
+      <data key="d0">247587.1741074477</data>
+      <data key="d1">1195044.219817329</data>
+      <data key="d2">('node', 4543308039)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="4878927463">
+      <data key="d0">250163.3261280836</data>
+      <data key="d1">1193057.7971852622</data>
+      <data key="d2">('node', 4878927463)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4878937183">
+      <data key="d0">249778.0860814269</data>
+      <data key="d1">1189222.3181635365</data>
+      <data key="d2">('node', 4878937183)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4878937184">
+      <data key="d0">250519.17269197968</data>
+      <data key="d1">1193103.5329396806</data>
+      <data key="d2">('node', 4878937184)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4878938321">
+      <data key="d0">252215.01108000064</data>
+      <data key="d1">1194882.4659664505</data>
+      <data key="d2">('node', 4878938321)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="4919751021">
+      <data key="d0">247589.4967016227</data>
+      <data key="d1">1192967.5913293315</data>
+      <data key="d2">('node', 4919751021)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="5003291559">
+      <data key="d0">251076.496180203</data>
+      <data key="d1">1195780.6544124351</data>
+      <data key="d2">('node', 5003291559)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="5003295021">
+      <data key="d0">246522.07532327634</data>
+      <data key="d1">1196830.8814553367</data>
+      <data key="d2">('node', 5003295021)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="5038250838">
+      <data key="d0">246882.44196269044</data>
+      <data key="d1">1196831.1772129599</data>
+      <data key="d2">('node', 5038250838)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="5234626729">
+      <data key="d0">247211.98116597996</data>
+      <data key="d1">1196821.6736014572</data>
+      <data key="d2">('node', 5234626729)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="5234688161">
+      <data key="d0">246146.60404129207</data>
+      <data key="d1">1196435.7570025253</data>
+      <data key="d2">('node', 5234688161)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="5234732313">
+      <data key="d0">246438.82293174654</data>
+      <data key="d1">1195676.165119251</data>
+      <data key="d2">('node', 5234732313)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="5234743117">
+      <data key="d0">246342.61760922012</data>
+      <data key="d1">1195087.5963695536</data>
+      <data key="d2">('node', 5234743117)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="5338396371">
+      <data key="d0">247510.45051586296</data>
+      <data key="d1">1198507.8138071822</data>
+      <data key="d2">('node', 5338396371)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="5338398122">
+      <data key="d0">247458.3326517695</data>
+      <data key="d1">1198643.114192037</data>
+      <data key="d2">('node', 5338398122)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="5339409228">
+      <data key="d0">247539.29751450827</data>
+      <data key="d1">1198653.5552958264</data>
+      <data key="d2">('node', 5339409228)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6494325189">
+      <data key="d0">247043.93041895473</data>
+      <data key="d1">1195392.281331195</data>
+      <data key="d2">('node', 6494325189)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6513984737">
+      <data key="d0">247111.95695162617</data>
+      <data key="d1">1194643.3853883008</data>
+      <data key="d2">('node', 6513984737)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="6914768075">
+      <data key="d0">246334.056328064</data>
+      <data key="d1">1195032.0877660862</data>
+      <data key="d2">('node', 6914768075)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6914893995">
+      <data key="d0">247111.04289327783</data>
+      <data key="d1">1198931.6283266782</data>
+      <data key="d2">('node', 6914893995)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6914896221">
+      <data key="d0">244880.8419028393</data>
+      <data key="d1">1196534.7359238963</data>
+      <data key="d2">('node', 6914896221)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6915194017">
+      <data key="d0">246519.95387091098</data>
+      <data key="d1">1197775.0736617686</data>
+      <data key="d2">('node', 6915194017)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6915805222">
+      <data key="d0">248005.62994550896</data>
+      <data key="d1">1197512.047596804</data>
+      <data key="d2">('node', 6915805222)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6916179823">
+      <data key="d0">246874.04980686924</data>
+      <data key="d1">1197939.1807152338</data>
+      <data key="d2">('node', 6916179823)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6926363335">
+      <data key="d0">246816.42293223817</data>
+      <data key="d1">1197478.70787358</data>
+      <data key="d2">('node', 6926363335)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6926383839">
+      <data key="d0">246896.8807893206</data>
+      <data key="d1">1197718.7605227013</data>
+      <data key="d2">('node', 6926383839)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6926437407">
+      <data key="d0">245723.59297804945</data>
+      <data key="d1">1196253.8088564386</data>
+      <data key="d2">('node', 6926437407)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6926437423">
+      <data key="d0">248521.365742096</data>
+      <data key="d1">1197478.054146282</data>
+      <data key="d2">('node', 6926437423)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6926494056">
+      <data key="d0">244845.19248112876</data>
+      <data key="d1">1193567.092374638</data>
+      <data key="d2">('node', 6926494056)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6928235796">
+      <data key="d0">245793.78250542496</data>
+      <data key="d1">1196376.8933389082</data>
+      <data key="d2">('node', 6928235796)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6929244828">
+      <data key="d0">246347.0045735689</data>
+      <data key="d1">1196137.5526141038</data>
+      <data key="d2">('node', 6929244828)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6929264998">
+      <data key="d0">246346.1299984118</data>
+      <data key="d1">1196408.2566941348</data>
+      <data key="d2">('node', 6929264998)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6931699129">
+      <data key="d0">246297.11006677008</data>
+      <data key="d1">1197757.6469468942</data>
+      <data key="d2">('node', 6931699129)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6932176618">
+      <data key="d0">246837.6796425686</data>
+      <data key="d1">1197805.7905872238</data>
+      <data key="d2">('node', 6932176618)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6932341207">
+      <data key="d0">246267.08813057374</data>
+      <data key="d1">1195932.0328459162</data>
+      <data key="d2">('node', 6932341207)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6933745722">
+      <data key="d0">247072.4905215667</data>
+      <data key="d1">1197467.1479379374</data>
+      <data key="d2">('node', 6933745722)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6933883291">
+      <data key="d0">246740.94007817935</data>
+      <data key="d1">1197451.582929521</data>
+      <data key="d2">('node', 6933883291)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6933974231">
+      <data key="d0">244981.11851599178</data>
+      <data key="d1">1197238.5616592136</data>
+      <data key="d2">('node', 6933974231)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934214347">
+      <data key="d0">246655.69792778394</data>
+      <data key="d1">1197208.3685795346</data>
+      <data key="d2">('node', 6934214347)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934271043">
+      <data key="d0">248149.5073973253</data>
+      <data key="d1">1198185.0409360973</data>
+      <data key="d2">('node', 6934271043)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934325871">
+      <data key="d0">248842.4273088255</data>
+      <data key="d1">1192978.062050203</data>
+      <data key="d2">('node', 6934325871)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934340643">
+      <data key="d0">246435.863177338</data>
+      <data key="d1">1196941.0904165981</data>
+      <data key="d2">('node', 6934340643)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934340653">
+      <data key="d0">247175.65428915742</data>
+      <data key="d1">1194874.8350990526</data>
+      <data key="d2">('node', 6934340653)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934340695">
+      <data key="d0">246076.56541669765</data>
+      <data key="d1">1196615.5268460952</data>
+      <data key="d2">('node', 6934340695)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6934868737">
+      <data key="d0">246743.87818769025</data>
+      <data key="d1">1197479.7678921754</data>
+      <data key="d2">('node', 6934868737)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6935217382">
+      <data key="d0">246737.86585439392</data>
+      <data key="d1">1197703.5684793529</data>
+      <data key="d2">('node', 6935217382)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936299001">
+      <data key="d0">246745.24909081415</data>
+      <data key="d1">1197631.4283323288</data>
+      <data key="d2">('node', 6936299001)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936335755">
+      <data key="d0">246811.6480325272</data>
+      <data key="d1">1196812.2936120813</data>
+      <data key="d2">('node', 6936335755)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936339119">
+      <data key="d0">248810.98453487636</data>
+      <data key="d1">1198005.2732438901</data>
+      <data key="d2">('node', 6936339119)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936359898">
+      <data key="d0">248971.64559534437</data>
+      <data key="d1">1190267.8815333245</data>
+      <data key="d2">('node', 6936359898)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936440594">
+      <data key="d0">246979.32155810308</data>
+      <data key="d1">1196866.5616659357</data>
+      <data key="d2">('node', 6936440594)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936709095">
+      <data key="d0">245756.91328869335</data>
+      <data key="d1">1197411.698256652</data>
+      <data key="d2">('node', 6936709095)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936709101">
+      <data key="d0">246244.39607447112</data>
+      <data key="d1">1197828.671785487</data>
+      <data key="d2">('node', 6936709101)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6936709131">
+      <data key="d0">246784.77872896215</data>
+      <data key="d1">1191830.3217693763</data>
+      <data key="d2">('node', 6936709131)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6937058944">
+      <data key="d0">246759.32062134877</data>
+      <data key="d1">1196983.6053808269</data>
+      <data key="d2">('node', 6937058944)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="6937624898">
+      <data key="d0">246673.43599344845</data>
+      <data key="d1">1197256.481682202</data>
+      <data key="d2">('node', 6937624898)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7181628619">
+      <data key="d0">246772.18163307765</data>
+      <data key="d1">1197478.6122955128</data>
+      <data key="d2">('node', 7181628619)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7213391109">
+      <data key="d0">246743.55360305088</data>
+      <data key="d1">1196925.6395838978</data>
+      <data key="d2">('node', 7213391109)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166757">
+      <data key="d0">246264.65994018453</data>
+      <data key="d1">1197120.4561278815</data>
+      <data key="d2">('node', 7257166757)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166775">
+      <data key="d0">248153.9023978779</data>
+      <data key="d1">1193689.0737179203</data>
+      <data key="d2">('node', 7257166775)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166782">
+      <data key="d0">247018.92819638347</data>
+      <data key="d1">1198033.4695837311</data>
+      <data key="d2">('node', 7257166782)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166789">
+      <data key="d0">246448.23271783706</data>
+      <data key="d1">1196680.0924817058</data>
+      <data key="d2">('node', 7257166789)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166794">
+      <data key="d0">246067.37334820535</data>
+      <data key="d1">1196367.9494449378</data>
+      <data key="d2">('node', 7257166794)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166823">
+      <data key="d0">245206.47670993724</data>
+      <data key="d1">1196394.1204433886</data>
+      <data key="d2">('node', 7257166823)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166828">
+      <data key="d0">246077.03720447898</data>
+      <data key="d1">1196098.0854283352</data>
+      <data key="d2">('node', 7257166828)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7257166864">
+      <data key="d0">246153.36216257585</data>
+      <data key="d1">1194529.6343543152</data>
+      <data key="d2">('node', 7257166864)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7526769782">
+      <data key="d0">247217.87128754982</data>
+      <data key="d1">1194010.7398149061</data>
+      <data key="d2">('node', 7526769782)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="7846487850">
+      <data key="d0">246893.18170967372</data>
+      <data key="d1">1196799.0153810433</data>
+      <data key="d2">('node', 7846487850)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487851">
+      <data key="d0">246672.98396666703</data>
+      <data key="d1">1197320.822968792</data>
+      <data key="d2">('node', 7846487851)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487852">
+      <data key="d0">246062.45771948877</data>
+      <data key="d1">1197719.5959446717</data>
+      <data key="d2">('node', 7846487852)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487853">
+      <data key="d0">246746.89625221828</data>
+      <data key="d1">1191284.1812495824</data>
+      <data key="d2">('node', 7846487853)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487857">
+      <data key="d0">248045.80170269907</data>
+      <data key="d1">1195006.5975217724</data>
+      <data key="d2">('node', 7846487857)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487858">
+      <data key="d0">248629.61153545225</data>
+      <data key="d1">1196251.0277680522</data>
+      <data key="d2">('node', 7846487858)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487859">
+      <data key="d0">247550.41833710438</data>
+      <data key="d1">1198432.1184450297</data>
+      <data key="d2">('node', 7846487859)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487860">
+      <data key="d0">248586.92701636656</data>
+      <data key="d1">1192976.2179823047</data>
+      <data key="d2">('node', 7846487860)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487861">
+      <data key="d0">248411.76399578364</data>
+      <data key="d1">1195663.4106938923</data>
+      <data key="d2">('node', 7846487861)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487866">
+      <data key="d0">245819.9318206482</data>
+      <data key="d1">1197321.9034178858</data>
+      <data key="d2">('node', 7846487866)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487875">
+      <data key="d0">247519.32071941573</data>
+      <data key="d1">1193201.2134357945</data>
+      <data key="d2">('node', 7846487875)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487876">
+      <data key="d0">246956.0811755654</data>
+      <data key="d1">1192164.912690779</data>
+      <data key="d2">('node', 7846487876)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487878">
+      <data key="d0">246812.23141188882</data>
+      <data key="d1">1197014.5426399128</data>
+      <data key="d2">('node', 7846487878)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487879">
+      <data key="d0">248189.62811715738</data>
+      <data key="d1">1196112.4906603564</data>
+      <data key="d2">('node', 7846487879)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487880">
+      <data key="d0">246854.45448609436</data>
+      <data key="d1">1197724.2505253726</data>
+      <data key="d2">('node', 7846487880)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487888">
+      <data key="d0">246555.9623500955</data>
+      <data key="d1">1197552.8152194333</data>
+      <data key="d2">('node', 7846487888)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487890">
+      <data key="d0">246740.18988715752</data>
+      <data key="d1">1196900.467807901</data>
+      <data key="d2">('node', 7846487890)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487892">
+      <data key="d0">245570.65966535144</data>
+      <data key="d1">1196284.0781927127</data>
+      <data key="d2">('node', 7846487892)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487893">
+      <data key="d0">244498.18601117228</data>
+      <data key="d1">1193702.5126570747</data>
+      <data key="d2">('node', 7846487893)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487894">
+      <data key="d0">246515.98332310238</data>
+      <data key="d1">1197432.7317813225</data>
+      <data key="d2">('node', 7846487894)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487896">
+      <data key="d0">245878.78837182556</data>
+      <data key="d1">1196274.9138949031</data>
+      <data key="d2">('node', 7846487896)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487898">
+      <data key="d0">246988.52854280607</data>
+      <data key="d1">1196421.638833808</data>
+      <data key="d2">('node', 7846487898)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487900">
+      <data key="d0">246610.03988608802</data>
+      <data key="d1">1197822.2160817028</data>
+      <data key="d2">('node', 7846487900)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487901">
+      <data key="d0">245921.40036412675</data>
+      <data key="d1">1197016.149060568</data>
+      <data key="d2">('node', 7846487901)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487905">
+      <data key="d0">247340.12254453838</data>
+      <data key="d1">1196690.401007094</data>
+      <data key="d2">('node', 7846487905)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487908">
+      <data key="d0">247971.3066491842</data>
+      <data key="d1">1193722.1750048604</data>
+      <data key="d2">('node', 7846487908)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487910">
+      <data key="d0">246786.19263581617</data>
+      <data key="d1">1197903.0757476925</data>
+      <data key="d2">('node', 7846487910)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487916">
+      <data key="d0">247302.677008597</data>
+      <data key="d1">1198628.8023996437</data>
+      <data key="d2">('node', 7846487916)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487917">
+      <data key="d0">247724.90293268635</data>
+      <data key="d1">1191881.0043830236</data>
+      <data key="d2">('node', 7846487917)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487918">
+      <data key="d0">245761.08536613407</data>
+      <data key="d1">1197064.9659257056</data>
+      <data key="d2">('node', 7846487918)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487919">
+      <data key="d0">246944.014359535</data>
+      <data key="d1">1197792.9432812026</data>
+      <data key="d2">('node', 7846487919)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487921">
+      <data key="d0">248670.31762898763</data>
+      <data key="d1">1192843.2551805729</data>
+      <data key="d2">('node', 7846487921)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487923">
+      <data key="d0">248076.10733464189</data>
+      <data key="d1">1195976.9156145884</data>
+      <data key="d2">('node', 7846487923)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487924">
+      <data key="d0">247016.46317490994</data>
+      <data key="d1">1198037.317133975</data>
+      <data key="d2">('node', 7846487924)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487928">
+      <data key="d0">246813.52487116112</data>
+      <data key="d1">1196983.1717488363</data>
+      <data key="d2">('node', 7846487928)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487932">
+      <data key="d0">246582.27414646227</data>
+      <data key="d1">1196396.7798050027</data>
+      <data key="d2">('node', 7846487932)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487934">
+      <data key="d0">246544.16463383986</data>
+      <data key="d1">1197411.1822295852</data>
+      <data key="d2">('node', 7846487934)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="7846487938">
+      <data key="d0">246434.88236955364</data>
+      <data key="d1">1197117.1474618465</data>
+      <data key="d2">('node', 7846487938)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="12078410435">
+      <data key="d0">249630.95588849593</data>
+      <data key="d1">1194467.9273573128</data>
+      <data key="d2">('node', 12078410435)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="12298329913">
+      <data key="d0">245439.12873982827</data>
+      <data key="d1">1195254.3071316022</data>
+      <data key="d2">('node', 12298329913)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="12298329916">
+      <data key="d0">245341.4765795664</data>
+      <data key="d1">1195151.494858514</data>
+      <data key="d2">('node', 12298329916)</data>
+      <data key="d3">school</data>
+    </node>
+    <node id="12972962890">
+      <data key="d0">247175.7417767488</data>
+      <data key="d1">1195182.778256773</data>
+      <data key="d2">('node', 12972962890)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="12973419917">
+      <data key="d0">246363.40651090004</data>
+      <data key="d1">1195920.456215586</data>
+      <data key="d2">('node', 12973419917)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="13008650082">
+      <data key="d0">246529.77533483633</data>
+      <data key="d1">1197731.5979812362</data>
+      <data key="d2">('node', 13008650082)</data>
+      <data key="d3">hospital</data>
+    </node>
+    <node id="13036672132">
+      <data key="d0">246580.70100708384</data>
+      <data key="d1">1198023.8188123216</data>
+      <data key="d2">('node', 13036672132)</data>
+      <data key="d3">hospital</data>
+    </node>
+  </graph>
+</graphml>
